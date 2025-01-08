@@ -1,3 +1,6 @@
+# This is a solution to a LeetCode's Interview Crash Course: Data Structures and Algorithms problem
+# Problem: Maximum Average Subarray
+
 from typing import List
 
 class Solution:
