@@ -17,7 +17,10 @@ class Solution:
             m -= 1
 
 if __name__ == "__main__":
-    s = ["h","e","l","l","o"]
+    input = ["h","e","l","l","o"]
+    expected_output = ["o","l","l","e","h"]
     sol = Solution()
-    sol.reverseString(s)
-    print(s)
+    print (f"Input: {input}")
+    sol.reverseString(input)
+    print (f"Expected: {expected_output}")
+    print (f"Output: {input}") # Printing input since output is modified in-place
